@@ -3,18 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <script src="https://kit.fontawesome.com/c6614d5790.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>DYNASWAP</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav-section">
         <img src="img/logo.png" alt="DYNASWAP-logo" class="logo">
-        <a href="#" class="nav-link">Community</a>
-        <a href="#" class="nav-link">Docs</a>
-        <a href="#" class="active-link">Launch App</a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Docs</a></li>
+          <li class="active"><a href="#" class="active-link">Launch App</a></li>
+        </ul>
+
+        <div id="menu-icon" class="nav-link">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
       </nav>
       <div class="hero">
         <a href="#" class="hero-back">Backed by TENET &#8594;</a>
@@ -62,6 +70,22 @@
               <img src="img/certik.png">
             </div>
 
+            <!-- repeat -->
+            <div class="slide">
+              <img src="img/crypto.png">
+            </div>
+            <div class="slide">
+              <img src="img/cooinGecko.png">
+            </div>
+            <div class="slide">
+              <img src="img/alpha.png">
+            </div>
+            <div class="slide">
+              <img src="img/tenet 1.png">
+            </div>
+            <div class="slide">
+              <img src="img/certik.png">
+            </div>
             <!-- repeat -->
             <div class="slide">
               <img src="img/crypto.png">
@@ -212,5 +236,6 @@
         <p>Privacy Policy • Terms & Conditions</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
