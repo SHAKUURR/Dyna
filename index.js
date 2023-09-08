@@ -20,3 +20,14 @@ ScrollReveal().reveal(".hero, .about, .automate, .trade, .provide", {
 	interval: 500,
 	duration: 2200,
 });
+
+const trade = document.querySelector(".trade-img");
+const provide = document.querySelector(".provide-img");
+
+const webpage = function (e) {
+	e.preventDefault();
+	window.location.href = "https://dynaswap.app/";
+};
+
+provide.addEventListener("click", webpage);
+trade.addEventListener("click", webpage);
