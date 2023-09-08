@@ -51,7 +51,7 @@ body {
 
 section,
 footer {
-  padding: 0rem 5rem 10rem 5rem;
+  padding: 0rem 10rem 10rem 10rem;
   overflow-x: hidden;
 }
 
@@ -73,7 +73,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 5rem;
+  padding: 3rem 10rem;
   background-color: #040116;
   position: fixed;
   top: 0;
@@ -373,7 +373,7 @@ nav {
 }
 
 .trade-textbox {
-  width: 50%;
+  width: 55%;
 }
 
 .trade-textbox h2 {

@@ -26,7 +26,8 @@ const provide = document.querySelector(".provide-img");
 
 const webpage = function (e) {
 	e.preventDefault();
-	window.location.href = "https://dynaswap.app/";
+	// window.location.href = "https://dynaswap.app/";
+	window.open("https://dynaswap.app/", "_blank");
 };
 
 provide.addEventListener("click", webpage);
