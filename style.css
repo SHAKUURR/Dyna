@@ -472,6 +472,7 @@ nav {
   font-weight: 500;
   line-height: normal;
   margin-bottom: 8rem;
+  width: 85%;
 }
 
 .provide-textbox a {
@@ -559,7 +560,7 @@ nav {
   display: inline-block;
 }
 
-.community-social span {
+/* .community-social span {
   color: red;
   font-family: 'Uncut Regular', sans-serif;
   font-size: 1.6rem;
@@ -568,7 +569,7 @@ nav {
   line-height: normal;
   letter-spacing: 0.064rem;
   margin-left: 1rem;
-}
+} */
 
 .community-handle i {
   font-size: 1.6rem;
