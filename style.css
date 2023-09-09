@@ -74,6 +74,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 3rem 10rem;
+  padding-bottom: 2rem;
   background-color: #040116;
   position: fixed;
   top: 0;

@@ -14,7 +14,14 @@ menu.forEach((element) => {
 //Animation on scroll........................
 ScrollReveal({ distance: "60px", duration: 2000, delay: 400 });
 
-ScrollReveal().reveal(".hero, .about, .automate, .trade, .provide", {
+ScrollReveal().reveal(".hero", {
+	delay: 110,
+	origin: "bottom",
+	// interval: 500,
+	duration: 2200,
+	distance: "20px",
+});
+ScrollReveal().reveal(".about, .automate, .trade, .provide", {
 	delay: 110,
 	origin: "bottom",
 	interval: 500,
