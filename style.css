@@ -130,6 +130,15 @@ nav {
   line-height: normal;
   color: #040815;
   display: inline-block;
+  transition: all .5s ease;
+}
+
+.active-link:hover {
+  color: #fff;
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  background: #9945FF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hero {
@@ -156,6 +165,13 @@ nav {
   border-radius: 6rem;
   border: 1px solid #FFF;
   background: #040815;
+  transition: all .5s ease;
+}
+
+.hero-back:hover {
+  border-radius: 6rem;
+  background: var(--white, #FFF);
+  color: #040815;
 }
 
 .hero h1 {
@@ -193,6 +209,15 @@ nav {
   font-family: 'Uncut Bold', sans-serif;
   font-weight: 700;
   line-height: normal;
+  transition: all .5s ease;
+}
+
+.hero .launch:hover {
+  color: #040815;
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  background: var(--white, #FFF);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 .hero-img {
@@ -414,6 +439,15 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.50);
   background: var(--primary-700, #040116);
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25) inset;
+  transition: all .5s ease;
+}
+
+.trade-textbox a:hover {
+  color: #040815;
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  background: var(--white, #FFF);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 /* provide Section.............*/
@@ -490,6 +524,15 @@ nav {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: all .5s ease;
+}
+
+.provide-textbox a:hover {
+  color: #040815;
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  background: var(--white, #FFF);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 /* Community Section.............*/
